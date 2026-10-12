@@ -26,3 +26,18 @@ These are selected captures from my actual deployment. Crops omit unnecessary de
 | [error20.png](error20.png) | Doctrine error at 20% |
 | [yamlok.png](yamlok.png) | Cache repair and YAML validation |
 | [cart.png](cart.png) | Successful public add-to-cart test |
+
+## Screenshots omitted from this publication
+
+I retained the written implementation steps but left these six images out of the public repository:
+
+| Filename | Content |
+| --- | --- |
+| `php.png` | PHP limits, rewrite activation and Apache validation |
+| `zip.png` | PrestaShop archive integrity check and extracted package files |
+| `pdobefore.png` | PDO connection code before adding TLS options |
+| `doctrine.png` | Doctrine TLS configuration before the later server_version addition |
+| `complete.png` | Successful installer completion |
+| `admin.png` | PrestaShop administration dashboard with demo data |
+
+The PDF report is not included in this repository. The deployment, database setup and troubleshooting guides provide the written walkthrough.
