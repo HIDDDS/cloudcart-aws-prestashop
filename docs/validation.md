@@ -12,8 +12,8 @@ I completed the following checks during the deployment, with the final browser t
 | Application MySQL login | Expected user and schema returned | [Database query](screenshots/dbproof.png) |
 | Apache configuration | Syntax OK | [Apache check](screenshots/apacheproof.png) |
 | Local installer endpoint | HTTP 200 | [Apache check](screenshots/apacheproof.png) |
-| PrestaShop installation | All stages completed | [Installer](screenshots/complete.png) |
-| Administrator access | Dashboard opened | [Dashboard](screenshots/admin.png) |
+| PrestaShop installation | All stages completed | Installer (image provided separately) |
+| Administrator access | Dashboard opened | Dashboard (image provided separately) |
 | Public storefront | Products, prices and images loaded in Incognito | [Storefront](screenshots/public.png) |
 | Shopping cart | One product added | [Cart](screenshots/cart.png) |
 
