@@ -6,7 +6,7 @@ I deployed PrestaShop on a new Ubuntu EC2 instance and connected it to a private
 
 **By Hammed Muhideen Akorede · October 2026**
 
-[View the storefront](http://ec2-52-16-225-58.eu-west-1.compute.amazonaws.com/) · Read my implementation report (provided separately) · [Database setup](docs/database-setup.md) · [Troubleshooting](docs/troubleshooting.md)
+[View the storefront](http://ec2-52-16-225-58.eu-west-1.compute.amazonaws.com/) · [Database setup](docs/database-setup.md) · [Troubleshooting](docs/troubleshooting.md)
 
 > I verified the storefront and add-to-cart flow on 12 October 2026. This is a learning deployment using HTTP. The live link depends on the AWS resources remaining running; the screenshots preserve the completed result.
 
@@ -37,7 +37,7 @@ This repository documents my deployment and troubleshooting work. PrestaShop is 
 | Fix a connection or installation error | [Troubleshooting](docs/troubleshooting.md) |
 | See what worked and what remains | [Validation and limitations](docs/validation.md) |
 | Find a configuration example | [Configuration examples](config-examples/) |
-| Review all captured evidence | [Screenshot index](docs/screenshots/README.md) and PDF report (provided separately) |
+| Review all captured evidence | [Screenshot index](docs/screenshots/README.md) |
 
 ## How the components connect
 
@@ -102,3 +102,7 @@ I used the AWS Free plan and selected the Free Tier template during database set
 The project is a single-instance learning deployment, not a production-ready store. My next improvements are HTTPS, a supported long-term approach to the PDO TLS change, a verified backup/restore exercise, monitoring and infrastructure as code. Payment processing, high availability and load testing were outside this project.
 
 I excluded passwords, private keys and live application secret files. Configuration examples use placeholders; screenshots are selected deployment evidence rather than a complete security audit.
+
+## Documentation coverage
+
+This publication includes the deployment and database guides, configuration examples, troubleshooting notes and 20 screenshots. Six additional captures and the PDF report are not included. The [screenshot index](docs/screenshots/README.md) identifies the omitted captures; their implementation steps remain explained in the guides.
