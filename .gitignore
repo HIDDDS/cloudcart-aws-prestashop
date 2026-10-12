@@ -1,0 +1,21 @@
+# Credentials and live application configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+parameters.php
+parameters.yml
+credentials
+# Runtime data and downloaded software
+vendor/
+node_modules/
+var/cache/
+var/logs/
+*.log
+*.sql
+*.sql.gz
+*.zip
+.DS_Store

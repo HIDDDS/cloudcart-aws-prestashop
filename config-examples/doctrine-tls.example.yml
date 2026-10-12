@@ -1,0 +1,12 @@
+# EXCERPT ONLY: merge into the existing default DBAL connection.
+# Preserve its existing driver, credentials, mapping and options.
+# Match server_version to the actual database version.
+doctrine:
+  dbal:
+    connections:
+      default:
+        server_version: '8.4.9'
+        options:
+          1009: '/etc/ssl/certs/aws-rds-global-bundle.pem'
+          1014: true
+# PDO MySQL attributes: 1009 = SSL CA; 1014 = verify server certificate.
